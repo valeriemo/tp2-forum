@@ -1,3 +1,6 @@
+
+
+<!-- Page de connexion des utilisateurs -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +11,13 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <nav>
+        <a href="index.php">⌂</a>
+        <div>
+            <a href="se-connecter.php"><button class="bouton">Se connecter</button></a>
+            <a href="nouvel-utilisateur.php"><button class="bouton">Se créer un compte</button></a>
+        </div>
+    </nav>
     <header>
         <h1>Forum de classe</h1>
         <h2>Programmation Web dynamique</h2>
@@ -19,8 +29,8 @@
             <form class="login-form">
                 <input type="text" placeholder="Nom d'utilisateur"/>
                 <input type="password" placeholder="Mot de passe"/>
-                <button>Se connecter</button>
-                <p class="message">Nouvelle utilisateur ? <a href="#">Se créer un compte</a></p>
+                <button class="bouton">Se connecter</button>
+                <p class="message">Nouvelle utilisateur ? <a href="se-connecter.php">Se créer un compte</a></p>
             </form>
         </div>
     </div>
